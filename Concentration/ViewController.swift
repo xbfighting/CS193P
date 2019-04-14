@@ -17,7 +17,7 @@ class ViewController: UIViewController {
             flipsCountLabel.text = "Flips: \(flipCount)"
         }
     }
-
+    
     @IBOutlet weak var flipsCountLabel: UILabel!
     
     @IBOutlet var cardButtons: [UIButton]!
