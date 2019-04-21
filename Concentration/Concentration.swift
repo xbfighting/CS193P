@@ -49,7 +49,6 @@ class Concentration {
     }
     
     init(numberOfPairsOfCards: Int) {
-        Card.identifierFactory = 0
         cards = [Card]()
         for _ in 1...numberOfPairsOfCards {
             let card = Card()
